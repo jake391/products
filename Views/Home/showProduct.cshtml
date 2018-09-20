@@ -1,0 +1,36 @@
+@model ViewModel
+<div class="row">
+    <div class="col">
+<h1>@ViewBag.name</h1>
+    </div>
+</div>
+<br>
+<div class="row">
+    <div class="col">
+        <h4>Categories:</h4>
+        <br>
+        <ul>
+        @{foreach(Category category in @Model.usedCategories){
+            <li>@category.name</li>
+            }
+        }
+        </ul>
+    </div>
+  
+    <div class="col">
+        <form asp-action="prodToCategory" method="POST">
+            <div class="form-group">
+                <label for="Category">Add Category:</label>
+                <select class="form-control" id="Category" asp-for="Joins.CategoryId">
+                    <option selected disabled>Select a category</option>
+                    @{foreach(Category category in @Model.unusedCategories){
+                            <option value="@category.CategoryId">@category.name</option>
+                        }
+                    } 
+                </select>
+                <input type="hidden" value="@ViewBag.ProductId" id="Product" asp-for="Joins.ProductId">
+            </div>
+            <button type="submit" class="btn btn-secondary">Add</button>
+        </form>
+    </div>
+</div>

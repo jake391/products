@@ -1,0 +1,11 @@
+/Users/cccxci/Desktop/dojo/C#/ORMs/EntityFramework/products/bin/Debug/netcoreapp2.0/products.deps.json
+/Users/cccxci/Desktop/dojo/C#/ORMs/EntityFramework/products/bin/Debug/netcoreapp2.0/products.runtimeconfig.json
+/Users/cccxci/Desktop/dojo/C#/ORMs/EntityFramework/products/bin/Debug/netcoreapp2.0/products.runtimeconfig.dev.json
+/Users/cccxci/Desktop/dojo/C#/ORMs/EntityFramework/products/bin/Debug/netcoreapp2.0/products.dll
+/Users/cccxci/Desktop/dojo/C#/ORMs/EntityFramework/products/bin/Debug/netcoreapp2.0/products.pdb
+/Users/cccxci/Desktop/dojo/C#/ORMs/EntityFramework/products/obj/Debug/netcoreapp2.0/products.csprojResolveAssemblyReference.cache
+/Users/cccxci/Desktop/dojo/C#/ORMs/EntityFramework/products/obj/Debug/netcoreapp2.0/products.csproj.CoreCompileInputs.cache
+/Users/cccxci/Desktop/dojo/C#/ORMs/EntityFramework/products/obj/Debug/netcoreapp2.0/products.AssemblyInfoInputs.cache
+/Users/cccxci/Desktop/dojo/C#/ORMs/EntityFramework/products/obj/Debug/netcoreapp2.0/products.AssemblyInfo.cs
+/Users/cccxci/Desktop/dojo/C#/ORMs/EntityFramework/products/obj/Debug/netcoreapp2.0/products.dll
+/Users/cccxci/Desktop/dojo/C#/ORMs/EntityFramework/products/obj/Debug/netcoreapp2.0/products.pdb

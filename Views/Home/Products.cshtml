@@ -1,0 +1,25 @@
+@model ViewModel
+<div class="row">
+    <div class="col"></div>
+    <div class="col">
+        <h2 class="text-center">New Product</h2>
+        <br>
+        <form asp-action="newProduct" method="POST">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input id="name" asp-for="Product.name" type="text" class="form-control">
+                <span asp-validation-for="Product.name"></span>
+                <br>
+                <label for="description">Description:</label>
+                <textarea id="description" asp-for="Product.description" class="form-control" rows="4"></textarea>
+                <span asp-validation-for="Product.description"></span>
+                <br>
+                <label for="price">Price:</label>
+                <input id="price" asp-for="Product.price" type="number" step="0.01" class="form-control">
+                <span asp-validation-for="Product.price"></span>
+            </div>
+            <button type="submit" class="btn btn-primary">Create</button>
+        </form>
+    </div>
+    <div class="col"></div>
+</div>
